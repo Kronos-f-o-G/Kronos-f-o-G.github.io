@@ -818,7 +818,7 @@ main > section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 0 20px 20px 20px;     
+    padding: 0 20px 90px 20px;     
     font-size: 24px; 
   }
 
@@ -874,7 +874,7 @@ main > section {
   }
 
   .popup__ing {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .recpt__header {
