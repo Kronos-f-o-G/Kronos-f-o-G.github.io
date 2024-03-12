@@ -926,6 +926,18 @@ main > section {
 }
 
 @media (max-width: 600px) {
+  .intro__button{
+    height: fit-content;  
+  }
+  .popup__ing{
+    width: auto;
+  }
+   .popup__ings{
+    flex-direction: column;
+    width: auto;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
   .container {
     max-width: none;
     padding: 0 10px;
