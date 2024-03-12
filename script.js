@@ -20,9 +20,10 @@ var Burger = /*#__PURE__*/_createClass(function Burger() {
       block.classList.remove('header__links-active');
     });
   }
+  let bbutton = document.querySelector('[data-big-burger-button]');
   var button = document.querySelector('[data-burger-button]');
   var block = document.querySelector('[data-burger-block]');
-  button.addEventListener('click', function () {
+  bbutton.addEventListener('click', function () {
     if (button.getAttribute('data-burger-button') == "true") {
       button.setAttribute('data-burger-button', 'false');
       button.classList.add('header__burger-lines-active');
