@@ -816,6 +816,8 @@ main > section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding: 0 20px 20px 20px;     
+    font-size: 24px; 
   }
 
   .intro {
@@ -870,7 +872,7 @@ main > section {
   }
 
   .popup__ing {
-    font-size: 32px;
+    font-size: 24px;
   }
 
   .recpt__header {
